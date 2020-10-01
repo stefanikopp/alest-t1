@@ -1,4 +1,5 @@
 T1 - Simulador de um Escalonador de Tarefas e de uma Bolsa de Valores
+
 Parte 1) Uma das principais aplicações de filas de prioridade é em sistemas operacionais. A fila de prioridade é fundamental no escalonamento de processos para serem executados no processador (CPU). Este trabalho consiste na construção de um simulador que escalona, isto é, agenda, a execução dos processos em um processador virtual.O programa deve rodar em um laço onde cada iteração do laço corresponde a uma fatia de tempo (um slice) do CPU. Cada processo tem uma prioridade atribuída que consiste de um valor inteiro no intervalo inclusivo -20 (maior prioridade) e 19 (menor prioridade).
 Dentre todos os processos a espera para serem executados em uma determinada fatia de tempo, o processador deve receber o processo com a maior prioridade disponível.
 Nesta simulação, cada processo terá um tamanho associado que indica o número de fatias de tempo necessárias para o conclusão do processo. Os valores de tempo devem estar no intervalo inclusivo de 1 até 100.
